@@ -1,4 +1,3 @@
-
 /*MIXIN*/
 
 @mixin anclas {
@@ -76,8 +75,10 @@ img {
 }
 
 .d-img {
-    height: 30vw;
+
+    height: 35vw;
     width: 100%;
+
 }
 
 div {
@@ -147,7 +148,7 @@ span {
     text-decoration: solid;
     text-align: center;
     height: 40%;
-    margin-top:10%;
+    margin-top: 10%;
 }
 
 .ring {
@@ -174,7 +175,7 @@ span {
     figure {
         img {
             filter: grayscale(100%);
-             -webkit-transition: .3s ease-in-out;
+            -webkit-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
         }
 

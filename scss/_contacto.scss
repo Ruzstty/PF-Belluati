@@ -37,6 +37,7 @@
 
                 filter: grayscale(0);
                 transform: scale(1.1);
+
             }
         }
     }
@@ -45,7 +46,7 @@
 .contenedors {
     background-color: $background-color_1;
     height: 30%;
-    max-width: 60%;
+    max-width: 80%;
     padding: 5%;
     margin: auto;
     margin-top: 10%;

@@ -1,23 +1,23 @@
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:100%;
-    position:relative;
-    height:100%;
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 100%;
     margin-bottom: 5%;
     border: 1px solid violet;
     border-radius: 5px;
     box-shadow: 5px 5px 50px #888;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
- bg-dark{
-     margin: 0;
+bg-dark {
+    margin: 0;
     padding: 1%;
 }
