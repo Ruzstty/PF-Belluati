@@ -132,6 +132,8 @@ span {
 }
 
 .textsam {
+    text-align: center;
+    background-color: $background-color_8;
     color: $color_11;
     line-height: 1.3em;
     font-style: italic;
@@ -141,7 +143,9 @@ span {
     padding: 5%;
     border: 3px solid violet;
     border-radius: 5px;
+    font-weight: bold;
 }
+
 
 .textsam1 {
     align-items: center;

@@ -98,7 +98,8 @@
 
 @media (min-width:200px) {
     .backpage {
-        background: rgb(103, 199, 202);
+        
+        background: $color_13;
         overflow: hidden;
     }
 }
