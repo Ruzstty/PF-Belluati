@@ -41,6 +41,10 @@ html {
   color: #fff;
 }
 
+.btn {
+  color: #0456c8;
+}
+
 /*MIXIN*/
 header {
   background-color: #000000;
