@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-    margin-block: 10px;
+    
     width: 150px;
     height: 115px;
     animation: rotar 10s linear infinite;
@@ -42,7 +42,7 @@ ul {
                 width: 100%;
                 height: 100%;
                 border-radius: 50%;
-                background: #ffee10;
+                background: $color_9;
                 transition: .5s;
                 transform: scale(.9);
                 z-index: -1;
@@ -51,12 +51,12 @@ ul {
             &:hover {
                 &::before {
                     transform: scale(1.1);
-                    box-shadow: 0 0 15px #ffee10;
+                    box-shadow: 0 0 15px $color_9;
                 }
 
                 color: $color_9;
-                box-shadow: 0 0 5px #ffee10;
-                text-shadow: 0 0 5px #ffee10;
+                box-shadow: 0 0 5px  $color_9;
+                text-shadow: 0 0 5px $color_9;
             }
         }
     }
@@ -133,7 +133,7 @@ span {
 
 .textsam {
     text-align: center;
-    background-color: $background-color_8;
+    background-color: $background-color_9;
     color: $color_11;
     line-height: 1.3em;
     font-style: italic;
@@ -170,7 +170,7 @@ span {
         height: 100%;
         width: 100%;
         border-radius: 50%;
-        box-shadow: 0 0 5px rgba(255, 255, 255, .3);
+        box-shadow: 0 0 5px $color_20;
     }
 }
 
@@ -194,7 +194,7 @@ span {
     width: 40%;
     height: 40%;
     margin-left: 30%;
-    border: 3px solid blue;
+    border: 3px solid $color_21;
 }
 
 
@@ -212,16 +212,17 @@ span {
     justify-content: space-between;
 
     a {
+        font-display: block;
         text-decoration: none;
         font-size: 20px;
         width: 40px;
         height: 40px;
         line-height: 40px;
         text-align: center;
-        background: #314652;
+        background: $background-color_10;
         color: $color_4;
         border-radius: 50%;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        box-shadow: 2px 2px 5px $color_22;
         transition: all .4s ease-in-out;
 
         &:hover {

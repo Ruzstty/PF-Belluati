@@ -11,6 +11,7 @@ html {
 }
 
 .text-center {
+  font-display: block;
   text-decoration: underline;
   text-align: center;
   background-color: #005aa7;
@@ -26,27 +27,26 @@ html {
 }
 
 .navbar-toggler {
-  border: 2px solid rgb(39, 65, 40);
+  border: 2px solid #274128;
 }
 
 .nav-link {
   font-family: "Open Sans", sans-serif;
-  color: blueviolet;
+  color: #8a2be2;
 }
 
 .btn:hover {
   background: #f5b14b;
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2196078431);
   color: #fff;
 }
 
 /*MIXIN*/
 header {
-  background-color: black;
+  background-color: #000000;
 }
 
 .logo {
-  margin-block: 10px;
   width: 150px;
   height: 115px;
   animation: rotar 10s linear infinite;
@@ -145,8 +145,8 @@ span {
 
 .textsam {
   text-align: center;
-  background-color: rgba(5, 17, 184, 0.2392156863);
-  color: hsl(0, 0%, 0%);
+  background-color: #DCDCDC;
+  color: #633E76;
   line-height: 1.3em;
   font-style: italic;
   font-size: larger;
@@ -181,7 +181,7 @@ span {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3019607843);
 }
 
 .img-fluid {
@@ -189,7 +189,7 @@ span {
   width: 40%;
   height: 40%;
   margin-left: 30%;
-  border: 3px solid blue;
+  border: 3px solid #0000ff;
 }
 .img-fluid figure img {
   filter: grayscale(100%);
@@ -213,6 +213,7 @@ span {
   justify-content: space-between;
 }
 .buttons a {
+  font-display: block;
   text-decoration: none;
   font-size: 20px;
   width: 40px;
@@ -222,7 +223,7 @@ span {
   background: #314652;
   color: #f1f1f1;
   border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5019607843);
   transition: all 0.4s ease-in-out;
 }
 .buttons a:hover {
@@ -255,7 +256,7 @@ span {
   cursor: help;
 }
 .contenedor-cards .contenedor-card-item:hover {
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3019607843);
   -webkit-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
@@ -286,9 +287,9 @@ span {
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .contenedor-card-item .contenedor-info .fondo {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.73) 53%, rgba(0, 0, 0, 0.88) 100%);
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.73) 53%, rgba(0, 0, 0, 0.88) 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.73) 53%, rgba(0, 0, 0, 0.88) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7294117647) 53%, rgba(0, 0, 0, 0.8784313725) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7294117647) 53%, rgba(0, 0, 0, 0.8784313725) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7294117647) 53%, rgba(0, 0, 0, 0.8784313725) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#e0000000", GradientType=0);
   width: 100%;
   height: 100%;
@@ -362,9 +363,10 @@ span {
 }
 
 .contenedors {
+  font-display: block;
   position: relative;
   bottom: 25px;
-  background-color: #24303c;
+  background-color: #BC987B;
   height: 30%;
   width: 80%;
   padding: 5%;
@@ -373,10 +375,10 @@ span {
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   color: white;
-  box-shadow: 7px 13px 37px #000;
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.5019607843);
 }
 .contenedors h2 {
-  color: blueviolet;
+  color: #8a2be2;
   text-decoration: underline;
   font-size: 150%;
   margin-top: 0;
@@ -407,11 +409,11 @@ span {
 
 .control {
   width: 100%;
-  background-color: #24303c;
+  background-color: rgba(0, 0, 0, 0.7294117647);
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 20px;
-  border: 1px solid #1f53c5;
+  border: 1px solid #5F9EA0;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
@@ -420,7 +422,7 @@ span {
 }
 
 textarea {
-  background-color: hsl(0, 0%, 0%);
+  background-color: #000000;
   width: 100%;
   height: 150px;
   border-radius: 5px;
@@ -437,7 +439,7 @@ textarea {
 input {
   padding: 0.8em 1em;
   border-radius: 5px;
-  border: navy;
+  border: #000080;
   background-color: transparent;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5764705882);
@@ -463,12 +465,12 @@ input {
 }
 
 .sam {
-  box-shadow: 0px 4px 2px rgba(8, 191, 236, 0.911);
+  box-shadow: 0px 4px 2px rgba(8, 191, 236, 0.9098039216);
   margin: 0;
   padding: 0;
   text-align: center;
   font-size: 150%;
-  border: 2px solid rebeccapurple;
+  border: 2px solid #663399;
   border-radius: 6px;
 }
 
@@ -491,11 +493,11 @@ input {
 }
 
 .copy1 {
-  color: chartreuse;
+  color: #7fff00;
 }
 
 .reflexion {
-  color: rgb(39, 65, 40);
+  color: #274128;
   text-transform: uppercase;
 }
 
@@ -510,7 +512,7 @@ input {
   width: 40%;
   height: 40%;
   margin-left: 30%;
-  color: blueviolet;
+  color: #8a2be2;
 }
 .centro figure img {
   filter: grayscale(100%);
@@ -545,7 +547,7 @@ input {
 }
 @keyframes text {
   50% {
-    color: black;
+    color: #000000;
   }
 }
 @media screen and (min-device-width: 500px) {
@@ -595,7 +597,7 @@ input {
 }
 @media (min-width: 200px) {
   .backpage {
-    background: #737373;
+    background: #AD9EBB;
     overflow: hidden;
   }
 }

@@ -1,5 +1,6 @@
 ::-webkit-scrollbar {
 	display: none;
+	
 }
 
 html {
@@ -10,11 +11,12 @@ html {
 }
 
 .text-center {
+	font-display: block;
 	text-decoration: underline;
 	text-align: center;
 	background-color: $background-color_6;
 	font-size: 200%;
-	text-shadow: 0px 10px 6px #22333B;
+	text-shadow: 0px 10px 6px $color_25;
 	background-color: $background-color_7;
 	font-family: $font-family_2;
 	text-align: center;
@@ -36,7 +38,7 @@ html {
 
 }
 .btn:hover{
-    background: #f5b14b;
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.22);
-    color:#fff;
+    background: $background-color_15;
+    box-shadow: 5px 5px 10px 0px $color_24;
+    color:$color_12;
  }
