@@ -31,6 +31,7 @@ html {
 }
 
 .nav-link {
+  font-size: x-large;
   font-family: "Open Sans", sans-serif;
   color: #8a2be2;
 }
@@ -84,7 +85,7 @@ ul li a:hover::before {
 }
 
 li {
-  font-size: medium;
+  font-size: large;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -163,6 +164,7 @@ span {
 }
 
 .textsam1 {
+  font-size: large;
   align-items: center;
   text-decoration: solid;
   text-align: center;
