@@ -31,7 +31,7 @@ html {
 }
 
 .nav-link {
-  font-size: x-large;
+  font-size: large;
   font-family: "Open Sans", sans-serif;
   color: #8a2be2;
 }
@@ -208,32 +208,6 @@ span {
 
 .whatsapp-icon {
   margin-top: 10px;
-}
-
-.buttons {
-  align-items: center;
-  display: flex;
-  padding: 50px;
-  min-width: 300px;
-  display: flex;
-  justify-content: space-between;
-}
-.buttons a {
-  font-display: block;
-  text-decoration: none;
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  background: #314652;
-  color: #f1f1f1;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5019607843);
-  transition: all 0.4s ease-in-out;
-}
-.buttons a:hover {
-  transform: scale(1.2);
 }
 
 .contenedor {

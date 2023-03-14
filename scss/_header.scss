@@ -204,30 +204,3 @@ span {
     margin-top: 10px;
 }
 
-.buttons {
-    align-items: center;
-    display: flex;
-    padding: 50px;
-    min-width: 300px;
-    display: flex;
-    justify-content: space-between;
-
-    a {
-        font-display: block;
-        text-decoration: none;
-        font-size: 20px;
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        text-align: center;
-        background: $background-color_10;
-        color: $color_4;
-        border-radius: 50%;
-        box-shadow: 2px 2px 5px $color_22;
-        transition: all .4s ease-in-out;
-
-        &:hover {
-            transform: scale(1.2);
-        }
-    }
-}
